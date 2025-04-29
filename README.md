@@ -122,3 +122,8 @@ private fun makeRestCall() {
 Aqui são definidas as classes `TickerResponse` e `Ticker`. Elas são usadas para modelar os dados que recebemos da API. `TickerResponse` tem um objeto `Ticker`, que contém todas as informações sobre o valor do Bitcoin, como o valor mais alto, mais baixo, volume e outras informações relevantes referente ao Bitcoin.
 
 `class  TickerResponse(val ticker: Ticker) class  Ticker( val high: String, val low: String, val vol: String, val last: String, val buy: String, val sell: String, val date: Long )` 
+
+## Execução da aplicação
+![WhatsApp Image 2025-04-28 at 22 35 35](https://github.com/user-attachments/assets/9146b41b-8320-4497-9fe8-14edb6c5169b)
+![WhatsApp Image 2025-04-28 at 22 35 35 (1)](https://github.com/user-attachments/assets/610fbe02-e958-4206-9eab-80b8a3171dee)
+
